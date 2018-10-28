@@ -238,7 +238,7 @@ public class NumberGuess extends Application {
 				yourNumbersLow.clear();
 				yourNumbersHigh.clear();
 				yourNum.setText("Your Numbers " + yourNumbersHigh.toString());
-				yourNumLow.setText("Your Low Guesses " + yourNumbersLow.toString());
+				yourNumLow.setText("Your Low Guesses " + yourNumbersLow.toString()); 
 				totalScore = 100;
 				score.setText("Score: " + totalScore);
 				randomNumber = (int) (Math.random() * 100 + 1);
